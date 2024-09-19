@@ -4,7 +4,7 @@ int reset = 3;
 int randomColor;
 
 void setup() {
-  size(1000, 1000);
+  size(700, 700);
 }
 
 void draw() {
