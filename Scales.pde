@@ -31,13 +31,13 @@ if (reset%2 == 1){
   else if (reset%2 ==0 && randomColor == 2){
       fill(random(255),random(230,255),random(255));
       noStroke();
-      ellipse(mouseX, mouseY, 100,100);
+      ellipse(mouseX, mouseY, 60,60);
   }
 
   else if (reset%2 ==0 && randomColor == 3){
       fill(random(255),random(255),255);
       noStroke();
-      ellipse(mouseX, mouseY, 100,100);
+      ellipse(mouseX, mouseY, 60,60);
   }
 }
 
