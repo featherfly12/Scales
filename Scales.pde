@@ -25,7 +25,7 @@ if (reset%2 == 1){
   else if (reset%2 ==0 && randomColor == 1){
       fill(255,random(255),random(255));
       noStroke();
-      ellipse(mouseX, mouseY, 100,100);
+      ellipse(mouseX, mouseY, 60,60);
   }
 
   else if (reset%2 ==0 && randomColor == 2){
